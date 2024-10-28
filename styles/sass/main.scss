@@ -1,0 +1,20 @@
+h1{
+    color:red;
+}
+
+.presentation{
+    color:blue;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+div.parent{
+    color: white;
+
+    &:hover{
+        color: black;
+    }
+    .enfant{
+        color: orange;
+    }
+}
