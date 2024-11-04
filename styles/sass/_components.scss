@@ -1,0 +1,31 @@
+.section-display{
+    display: flex;
+
+
+    .text-content{
+        flex: 1;
+        .title{
+            font-size: 70px;
+            line-height: 1.1;
+            font-weight: 700;
+        }
+        .paragraph {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+
+    .illustration{
+        flex: 1;
+        img{
+            max-width: 100%;
+            display: block;
+            margin: auto;
+        }
+    }
+
+
+    .action-div{
+
+    }
+}

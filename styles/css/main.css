@@ -5,4 +5,113 @@ body {
 body {
   background-color: #171c28;
   color: #ffffff;
+  margin: 0 30px;
+}
+
+main {
+  margin: 0 30px;
+}
+
+header.header-website {
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.section-display {
+  display: flex;
+}
+.section-display .text-content {
+  flex: 1;
+}
+.section-display .text-content .title {
+  font-size: 70px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.section-display .text-content .paragraph {
+  font-size: 30px;
+  line-height: 40px;
+}
+.section-display .illustration {
+  flex: 1;
+}
+.section-display .illustration img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.btn {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border: solid 1px;
+  transition: all ease 0.3s;
+}
+.btn:hover {
+  transform: translateY(-10px);
+}
+.btn.btn-primary {
+  background-color: #55198b;
+  border-color: #200935;
+  color: #ffffff;
+}
+.btn.btn-primary:hover {
+  background-color: #6f21b6;
+  color: #ffffff;
+}
+.btn.btn-secondary {
+  background-color: #aaa5ff;
+  border-color: #4a3fff;
+  color: #171c28;
+}
+.btn.btn-secondary:hover {
+  background-color: #dad8ff;
+  color: #171c28;
+}
+.btn.btn-gray {
+  background-color: #868e96;
+  border-color: #555b61;
+  color: #171c28;
+}
+.btn.btn-gray:hover {
+  background-color: #a1a8ae;
+  color: #171c28;
+}
+.btn.btn-lightgray {
+  background-color: #f3efef;
+  border-color: #c7b5b5;
+  color: #171c28;
+}
+.btn.btn-lightgray:hover {
+  background-color: white;
+  color: #171c28;
+}
+.btn.btn-dark {
+  background-color: #171c28;
+  border-color: black;
+  color: #ffffff;
+}
+.btn.btn-dark:hover {
+  background-color: #2a3348;
+  color: #ffffff;
+}
+.btn.btn-white {
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #171c28;
+}
+.btn.btn-white:hover {
+  background-color: white;
+  color: #171c28;
+}
+.btn.btn-accent {
+  background-color: #fec131;
+  border-color: #c88d01;
+  color: #171c28;
+}
+.btn.btn-accent:hover {
+  background-color: #fed064;
+  color: #171c28;
 }/*# sourceMappingURL=main.css.map */

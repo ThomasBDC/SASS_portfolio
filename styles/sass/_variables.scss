@@ -1,7 +1,18 @@
 $primary : #55198b;
 $secondary: #aaa5ff;
+$accent: #fec131;
 $gray : #868e96;
 $lightgray: #f3efef;
 $dark: #171c28;
 $white: #ffffff;
+$test: #b55a5a;
 
+$colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'gray': $gray,
+  'lightgray': $lightgray,
+  'dark': $dark,
+  'white': $white,
+  'accent': $accent
+);
