@@ -17,6 +17,11 @@ header.header-website {
   margin-bottom: 15px;
 }
 
+picture.emoji-gif img {
+  width: 1em;
+  height: 1em;
+}
+
 .section-display {
   display: flex;
   margin-bottom: 10rem;
