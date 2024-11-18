@@ -19,27 +19,69 @@ header.header-website {
 
 .section-display {
   display: flex;
+  margin-bottom: 10rem;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .section-display.right-text-content {
+    flex-direction: row-reverse;
+  }
+  .section-display.right-text-content .illustration {
+    padding-right: 5rem;
+  }
+  .section-display.left-text-content {
+    flex-direction: row;
+  }
+  .section-display.left-text-content .illustration {
+    padding-left: 5rem;
+  }
 }
 .section-display .text-content {
   flex: 1;
 }
 .section-display .text-content .title {
-  font-size: 70px;
+  font-size: 30px;
   line-height: 1.1;
   font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+  .section-display .text-content .title {
+    font-size: 70px;
+  }
+}
 .section-display .text-content .paragraph {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .section-display .text-content .paragraph {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 .section-display .illustration {
   flex: 1;
+  margin-top: 50px;
 }
 .section-display .illustration img {
   max-width: 100%;
   display: block;
   margin: auto;
 }
+.competences-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 45px;
+}
+.competences-icons i {
+  transition: all 0.3s ease;
+}
+.competences-icons i:hover {
+  cursor: pointer;
+  color: #aaa5ff;
+  transform: scale(1.2);
+}
+
 .btn {
   padding: 15px 30px;
   border: none;
