@@ -156,4 +156,42 @@ header.header-website {
 .btn.btn-accent:hover {
   background-color: #fed064;
   color: #171c28;
+}
+
+.animate-fusee {
+  transition: all 1s ease;
+  display: inline-block;
+}
+.animate-fusee:hover {
+  animation: moveFusee 2s;
+}
+
+@keyframes moveFusee {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(1px, -1px);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  30% {
+    transform: translate(3px, -3px);
+  }
+  40% {
+    transform: translate(-4px, 4px);
+  }
+  50% {
+    transform: translate(5px, -5px);
+  }
+  60% {
+    transform: translate(-6px, 6px);
+  }
+  70% {
+    transform: translate(7px, -7px);
+  }
+  100% {
+    transform: translate(1500px, -1500px);
+  }
 }/*# sourceMappingURL=main.css.map */

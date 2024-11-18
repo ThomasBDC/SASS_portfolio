@@ -1,0 +1,21 @@
+.animate-fusee{
+    transition: all 1s ease;
+    display: inline-block;
+    &:hover{
+        animation: moveFusee 2s;
+    }
+}
+
+@keyframes moveFusee {
+    @for $i from 0 through 7 {
+        #{($i * 10)}% {
+          transform: translate(
+            if($i % 2 == 0, -1px * $i, 1px * $i),
+            if($i % 2 == 0, 1px * $i, -1px * $i)
+          );
+        }
+    }
+    100% {
+        transform: translate(1500px, -1500px);
+    }
+  }
