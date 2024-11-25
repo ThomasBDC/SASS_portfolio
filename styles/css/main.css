@@ -2,19 +2,25 @@ body {
   font: 19px/23px Montserrat, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #171c28;
   color: #ffffff;
-  margin: 0 30px;
+  margin: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0 30px;
+  }
 }
 
-main {
-  margin: 0 30px;
-}
-
-header.header-website {
-  height: 75px;
-  margin-bottom: 15px;
+@media screen and (min-width: 768px) {
+  main {
+    margin: 0 30px;
+  }
 }
 
 picture.emoji-gif img {
@@ -88,13 +94,19 @@ picture.emoji-gif img {
 }
 
 .btn {
-  padding: 15px 30px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 18px;
   border: solid 1px;
   transition: all ease 0.3s;
+  display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 18px;
+    padding: 15px 30px;
+  }
 }
 .btn:hover {
   transform: translateY(-10px);
@@ -198,5 +210,61 @@ picture.emoji-gif img {
   }
   100% {
     transform: translate(1500px, -1500px);
+  }
+}
+.header-website {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #171c28;
+}
+.header-website .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.header-website .navbar .menu .menu-input {
+  display: none;
+}
+.header-website .navbar .menu .menu-input:checked ~ .dropdown-menu {
+  max-height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .header-website .navbar .menu .menu-input-label {
+    display: none;
+  }
+}
+.header-website .navbar .menu .dropdown-menu {
+  transition: max-height 0.2s ease-out;
+  max-height: 0;
+  background-color: #171c28;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  top: 100%;
+}
+.header-website .navbar .menu .dropdown-menu .nav-links {
+  padding: 15px;
+}
+.header-website .navbar .menu .dropdown-menu .nav-links .nav-link {
+  display: block;
+  padding: 10px;
+}
+.header-website .navbar .menu .dropdown-menu .nav-links .nav-link a {
+  text-decoration: none;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .header-website .navbar .menu .dropdown-menu {
+    max-height: 100vh;
+    position: relative;
+  }
+  .header-website .navbar .menu .dropdown-menu .nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */

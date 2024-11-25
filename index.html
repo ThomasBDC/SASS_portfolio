@@ -9,10 +9,31 @@
 </head>
 <body>
     <header class="header-website">
-        HEADER
+        <nav class="navbar">
+            <div class="logo">
+                <!-- <img src="img/logo.png" alt="Logo Thomas BDC"> -->
+                 <span class="logo-text">Thomas BDC</span>
+            </div>
+            <div class="menu">
+                <label class="btn btn-secondary menu-input-label" for="menu-toggle"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="menu-toggle" class="menu-input" title="Toggle Menu"/>
+                <div class="dropdown-menu">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#accueil">Accueil</a>
+                        </li>
+                        <li class="nav-link" >
+                            <a href="#competences">Compétences</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
     </header>
     <main>
-        <section class="section-display left-text-content">
+        <section class="section-display left-text-content" id="accueil">
             <article class="text-content">
                 <h1 class="title">
                     Thomas BDC 
@@ -40,7 +61,7 @@
                 <img src="img/presentation.png" alt="presentation de Thomas BDC">
             </div>
         </section>
-        <section class="section-display right-text-content">
+        <section class="section-display right-text-content" id="competences">
             <article class="text-content">
                 <h2 class="title">Mes compétences</h2>
                 <p class="paragraph">Voici les compétences que je maîtrise :</p>
