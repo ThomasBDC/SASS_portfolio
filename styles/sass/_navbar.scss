@@ -36,8 +36,7 @@
                         display: block;
                         padding: 10px;
                         a{
-                            text-decoration: none;
-                            color: $white;
+                            @include link-as-text;
                         }
                 
                     }
