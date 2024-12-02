@@ -161,10 +161,9 @@ picture.emoji-gif img {
 
 .btn {
   padding: 10px 15px;
-  border: none;
+  border: solid 1px;
   border-radius: 5px;
   cursor: pointer;
-  border: solid 1px;
   transition: all ease 0.3s;
   display: inline-block;
 }
