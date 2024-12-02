@@ -4,9 +4,7 @@
     left: 0;
     background-color: $dark;
     .navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include justify-between;
         padding-top: 20px;
         padding-bottom: 10px;
         .menu{
