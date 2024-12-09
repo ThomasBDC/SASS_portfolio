@@ -18,6 +18,7 @@ Live : https://thomasbdc.github.io/SASS_portfolio/
 | [Live n°3](https://app.studi.fr/v3/events/78410/stream) | 18/11/2024 | 13h00 |
 | [Live n°4](https://app.studi.fr/v3/events/78411/stream) | 25/11/2024 | 13h00 |
 | [Live n°5](https://app.studi.fr/v3/events/78412/stream) | 02/12/2024 | 13h00 |
+| [Live n°6](https://app.studi.fr/v3/events/78413/stream) | 09/12/2024 | 13h00 |
 
 
 # Images
