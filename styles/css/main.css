@@ -28,6 +28,13 @@ picture.emoji-gif img {
   height: 1em;
 }
 
+#goToTop {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 500;
+}
+
 .section-display {
   display: flex;
   margin-bottom: 10rem;
@@ -382,4 +389,14 @@ picture.emoji-gif img {
     justify-content: space-between;
     padding: 0;
   }
+}
+
+footer {
+  padding: 30px;
+}
+footer .credits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
