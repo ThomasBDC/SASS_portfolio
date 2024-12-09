@@ -64,6 +64,11 @@ picture.emoji-gif img {
 }
 @media screen and (min-width: 768px) {
   .section-display .text-content .title {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-display .text-content .title {
     font-size: 70px;
   }
 }
@@ -71,6 +76,12 @@ picture.emoji-gif img {
   font-size: 15px;
 }
 @media screen and (min-width: 768px) {
+  .section-display .text-content .paragraph {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 1440px) {
   .section-display .text-content .paragraph {
     font-size: 30px;
     line-height: 40px;
