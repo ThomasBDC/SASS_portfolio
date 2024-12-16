@@ -1,3 +1,6 @@
+@use 'sass:math';
+
+
 .section-display{
     display: flex;
     margin-bottom: 10rem;
@@ -218,6 +221,57 @@
         }
 
         .diplome-description{
+        }
+    }
+}
+
+.experience{
+    $img-size: 100px;    
+    $img-size-divided: math.div($img-size, 2);
+
+    @media screen and (min-width:1024px){ 
+        padding: 15px;
+        max-width: 33%;
+        display: inline-block;
+        box-sizing: border-box;  
+    }
+
+    .experience-header{
+        position: relative;
+        padding: 50px;
+        padding-top: 25px;
+        background-color: $primary;
+        border-top-left-radius: $border-radius;
+        border-top-right-radius: $border-radius;
+        .experience-title{
+            text-align: center;
+        }
+        .experience-logo{
+            position: absolute;
+            border-radius: 50%;
+            bottom: $img-size-divided * -1;
+            left:50%;
+            transform: translateX(-50%);
+            max-width: $img-size;
+            max-height: $img-size;
+        }
+    }
+
+    .experience-content{
+        border: 1px solid $white;
+        border-top: none;
+        padding: 15px;
+        padding-top: $img-size-divided + 15px;
+        border-bottom-left-radius: $border-radius;
+        border-bottom-right-radius: $border-radius;
+        .experience-subtitle{
+            font-weight: bold;
+        }
+        .experience-date{
+            font-style: italic;
+        }
+        .experience-description{
+            margin-top: 10px;
         }
     }
 }
