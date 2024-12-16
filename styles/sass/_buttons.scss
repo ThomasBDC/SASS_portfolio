@@ -13,7 +13,7 @@
 .btn{
     padding: 10px 15px;
     border: solid 1px;
-    border-radius: 5px;
+    border-radius: $border-radius;
     cursor: pointer;
     transition: all ease 0.3s;
     display: inline-block;
